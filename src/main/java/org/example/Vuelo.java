@@ -1,23 +1,25 @@
-package com.example;
+package org.example;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
 
 public class Vuelo {
+    //Atributos
+    private Aerolinea aerolinea;
     private int numero;
-    private String categoria;
+    private CategoriaVuelo categoria;
     private String terminal;
     private String puerta;
-    private int fecha;
-    private int horaDespegue;
-    private int horaAterrizaje;
+    private LocalDate fecha;
+    private LocalTime horaDespegue;
+    private LocalTime horaAterrizaje;
     private String torreControl;
     private int numPasajeros;
-    private boolean estado;
+    private Estado estado;
 
-
- public Vuelo() {
-    }
-    
-public Vuelo(int numero, String categoria, String terminal, String puerta, int fecha, int horaDespegue,
-            int horaAterrizaje, String torreControl, int numPasajeros, boolean estado) {
+//Constructor
+    public Vuelo(int numero,Aerolinea aerolinea ,CategoriaVuelo categoria, String terminal, String puerta, LocalDate fecha, LocalTime horaDespegue,
+                 LocalTime horaAterrizaje, String torreControl, int numPasajeros, Estado estado) {
         this.numero = numero;
         this.categoria = categoria;
         this.terminal = terminal;
@@ -28,87 +30,110 @@ public Vuelo(int numero, String categoria, String terminal, String puerta, int f
         this.torreControl = torreControl;
         this.numPasajeros = numPasajeros;
         this.estado = estado;
+        this.aerolinea = aerolinea;
     }
 
-public int getNumero() {
-    return numero;
-}
+    public int getNumero() {
+        return numero;
+    }
 
-public void setNumero(int numero) {
-    this.numero = numero;
-}
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
 
-public String getCategoria() {
-    return categoria;
-}
+    public CategoriaVuelo getCategoria() {
+        return categoria;
+    }
 
-public void setCategoria(String categoria) {
-    this.categoria = categoria;
-}
+    public void setCategoria(CategoriaVuelo categoria) {
+        this.categoria = categoria;
+    }
 
-public String getTerminal() {
-    return terminal;
-}
+    public String getTerminal() {
+        return terminal;
+    }
 
-public void setTerminal(String terminal) {
-    this.terminal = terminal;
-}
+    public void setTerminal(String terminal) {
+        this.terminal = terminal;
+    }
 
-public String getPuerta() {
-    return puerta;
-}
+    public String getPuerta() {
+        return puerta;
+    }
 
-public void setPuerta(String puerta) {
-    this.puerta = puerta;
-}
+    public void setPuerta(String puerta) {
+        this.puerta = puerta;
+    }
 
-public int getFecha() {
-    return fecha;
-}
+    public LocalDate getFecha() {
+        return fecha;
+    }
 
-public void setFecha(int fecha) {
-    this.fecha = fecha;
-}
+    public void setFecha(LocalDate fecha) {
+        this.fecha = fecha;
+    }
 
-public int getHoraDespegue() {
-    return horaDespegue;
-}
+    public LocalTime getHoraDespegue() {
+        return horaDespegue;
+    }
 
-public void setHoraDespegue(int horaDespegue) {
-    this.horaDespegue = horaDespegue;
-}
+    public void setHoraDespegue(LocalTime horaDespegue) {
+        this.horaDespegue = horaDespegue;
+    }
 
-public int getHoraAterrizaje() {
-    return horaAterrizaje;
-}
+    public LocalTime getHoraAterrizaje() {
+        return horaAterrizaje;
+    }
 
-public void setHoraAterrizaje(int horaAterrizaje) {
-    this.horaAterrizaje = horaAterrizaje;
-}
+    public void setHoraAterrizaje(LocalTime horaAterrizaje) {
+        this.horaAterrizaje = horaAterrizaje;
+    }
 
-public String getTorreControl() {
-    return torreControl;
-}
+    public String getTorreControl() {
+        return torreControl;
+    }
 
-public void setTorreControl(String torreControl) {
-    this.torreControl = torreControl;
-}
+    public void setTorreControl(String torreControl) {
+        this.torreControl = torreControl;
+    }
 
-public int getNumPasajeros() {
-    return numPasajeros;
-}
+    public int getNumPasajeros() {
+        return numPasajeros;
+    }
 
-public void setNumPasajeros(int numPasajeros) {
-    this.numPasajeros = numPasajeros;
-}
+    public void setNumPasajeros(int numPasajeros) {
+        this.numPasajeros = numPasajeros;
+    }
 
-public boolean isEstado() {
-    return estado;
-}
+    public Estado isEstado() {
+        return estado;
+    }
 
-public void setEstado(boolean estado) {
-    this.estado = estado;
-}
-   
+    public void setEstado(Estado estado) {
+        this.estado = estado;
+    }
+    public Aerolinea getAerolinea() {
+        return aerolinea;
+    }
+
+    public void setAerolinea(Aerolinea aerolinea) {
+        this.aerolinea = aerolinea;
+    }
+    @Override
+    public String toString() {
+        return "Vuelo{" +
+                "aerolinea=" + aerolinea +
+                ", numero=" + numero +
+                ", categoria=" + categoria +
+                ", terminal='" + terminal + '\'' +
+                ", puerta='" + puerta + '\'' +
+                ", fecha=" + fecha +
+                ", horaDespegue=" + horaDespegue +
+                ", horaAterrizaje=" + horaAterrizaje +
+                ", torreControl='" + torreControl + '\'' +
+                ", numPasajeros=" + numPasajeros +
+                ", estado=" + estado +
+                '}';
+    }
 }
 

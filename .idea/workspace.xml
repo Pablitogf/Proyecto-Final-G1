@@ -1,115 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f4bcf19-f39e-4f31-a6ec-46fb812a6e40" name="Changes" comment="Creacion">
-      <change afterPath="$PROJECT_DIR$/Proyecto-Aviones/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto-Aviones/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto-Aviones/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto-Aviones/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto-Aviones/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto-Aviones/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto-Aviones/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="bed10723-644d-4175-9431-4d7b844fae2a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Aerolinea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Aerolinea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Estado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Estado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Piloto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Piloto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ruta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Torre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Torre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vuelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vuelo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/diagrama.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;choclitoxd&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="b5243b5a-ec9c-411d-b4c2-c02ff1a45c0c" />
-        <option name="url" value="https://github.com/Pablitogf/Proyecto-Final-G1.git" />
-      </UrlAndAccount>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
-  <component name="ProjectId" id="2XyDZkeNiPGI7MB0mxFXYP0k3w9" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2Y9MtKXNvTMHW2mu0O87vQZx06B" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/vector/Documents/universidad/Proyecto/Proyecto-Final-G1/Proyecto-Aviones&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/vector/Documents/universidad/Proyecto/Proyecto-Final-G1"
   }
-}</component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Proyecto-Final-G1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1f4bcf19-f39e-4f31-a6ec-46fb812a6e40" name="Changes" comment="" />
-      <created>1699592483971</created>
+      <changelist id="bed10723-644d-4175-9431-4d7b844fae2a" name="Changes" comment="" />
+      <created>1699933560707</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1699592483971</updated>
-      <workItem from="1699592485008" duration="207000" />
-      <workItem from="1699592771425" duration="56000" />
-      <workItem from="1699593103648" duration="58000" />
-      <workItem from="1699593270406" duration="123000" />
-      <workItem from="1699593481346" duration="154000" />
+      <updated>1699933560707</updated>
     </task>
-    <task id="LOCAL-00001" summary="Creacion">
-      <option name="closed" value="true" />
-      <created>1699592563664</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1699592563664</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Creacion">
-      <option name="closed" value="true" />
-      <created>1699592621540</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1699592621540</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion" />
   </component>
 </project>
