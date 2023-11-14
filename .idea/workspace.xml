@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed10723-644d-4175-9431-4d7b844fae2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/AppTest.java" afterDir="false" />
+    <list default="true" id="bed10723-644d-4175-9431-4d7b844fae2a" name="Changes" comment="Y agrego estos tres metodos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Aerolinea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Aerolinea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Estado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Estado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Piloto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Piloto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ruta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Torre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Torre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vuelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vuelo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/diagrama.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +26,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2Y9MtKXNvTMHW2mu0O87vQZx06B" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -47,14 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/vector/Documents/universidad/Proyecto/Proyecto-Final-G1"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/vector/Documents/universidad/Proyecto/Proyecto-Final-G1&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,6 +54,28 @@
       <option name="presentableId" value="Default" />
       <updated>1699933560707</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cree la gran mayoria de metodos falta actulizar el diagrama.drawio">
+      <option name="closed" value="true" />
+      <created>1699984406274</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699984406274</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Y agrego estos tres metodos">
+      <option name="closed" value="true" />
+      <created>1699984459938</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699984459938</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cree la gran mayoria de metodos falta actulizar el diagrama.drawio" />
+    <MESSAGE value="Y agrego estos tres metodos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Y agrego estos tres metodos" />
   </component>
 </project>
