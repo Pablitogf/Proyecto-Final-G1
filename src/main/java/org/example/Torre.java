@@ -24,13 +24,10 @@ public class Torre {
     return id;
     }
 
-<<<<<<< HEAD
     public void setId(int id) {
     this.id = id;
     }
 
-=======
->>>>>>> 8545054e8ecaca90c961e0320e5e9f1e8c912f7e
     public String getUbicacion() {
     return ubicacion;
     }
