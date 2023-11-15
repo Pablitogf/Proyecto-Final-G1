@@ -13,13 +13,13 @@ public class Vuelo {
     private LocalDate fecha;
     private LocalTime horaDespegue;
     private LocalTime horaAterrizaje;
-    private String torreControl;
+    private Torre torreControl;
     private int numPasajeros;
     private Estado estado;
 
 //Constructor
     public Vuelo(int numero,Aerolinea aerolinea ,CategoriaVuelo categoria, String terminal, String puerta, LocalDate fecha, LocalTime horaDespegue,
-                 LocalTime horaAterrizaje, String torreControl, int numPasajeros, Estado estado) {
+                 LocalTime horaAterrizaje, Torre torreControl, int numPasajeros, Estado estado) {
         this.numero = numero;
         this.categoria = categoria;
         this.terminal = terminal;
@@ -89,11 +89,11 @@ public class Vuelo {
         this.horaAterrizaje = horaAterrizaje;
     }
 
-    public String getTorreControl() {
+    public Torre getTorreControl() {
         return torreControl;
     }
 
-    public void setTorreControl(String torreControl) {
+    public void setTorreControl(Torre torreControl) {
         this.torreControl = torreControl;
     }
 

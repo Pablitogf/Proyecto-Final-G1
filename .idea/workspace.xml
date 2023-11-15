@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed10723-644d-4175-9431-4d7b844fae2a" name="Changes" comment="Y agrego este metodo DirectorioAerolineas">
+    <list default="true" id="bed10723-644d-4175-9431-4d7b844fae2a" name="Changes" comment="Y agrego este metodo DirectorioTorre">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DirectorioAerolineas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DirectorioAerolineas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Piloto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Piloto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Torre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Torre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vuelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vuelo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -58,10 +57,43 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/vector/Downloads/ProyectoFinal V2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TorreTest.testGuardarVuelo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Proyecto-Aviones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TorreTest" />
+      <option name="METHOD_NAME" value="testGuardarVuelo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TorreTest.testGuardarVuelo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -95,13 +127,22 @@
       <option name="project" value="LOCAL" />
       <updated>1699985028231</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Y agrego este metodo DirectorioTorre">
+      <option name="closed" value="true" />
+      <created>1700060574060</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700060574060</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cree la gran mayoria de metodos falta actulizar el diagrama.drawio" />
     <MESSAGE value="Y agrego estos tres metodos" />
     <MESSAGE value="Y agrego este metodo DirectorioAerolineas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Y agrego este metodo DirectorioAerolineas" />
+    <MESSAGE value="Y agrego este metodo DirectorioTorre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Y agrego este metodo DirectorioTorre" />
   </component>
 </project>

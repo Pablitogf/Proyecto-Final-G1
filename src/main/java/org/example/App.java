@@ -22,6 +22,9 @@ public class App {
                 LocalTime.MIDNIGHT,LocalTime.now(),"1",20,pronto);
         Torre torre1 = new Torre("norte","cualquiercosa","32123133");
         torre1.guardarVuelo(vuelo1);
+        for (int i = 0; i < directorio.size(); i++) {
+
+        }
     }
     
 }
