@@ -23,12 +23,14 @@ public class TorreTest extends TestCase {
         ArrayList<Vuelo> vueloEsperado = new ArrayList<>(Arrays.asList(vueloSupervicion));
         ArrayList<Vuelo> vueloResultado = torre.getVuelos();
 
-        for (int i = 0; i < vueloEsperado.size(); i++) {
+        /*for (int i = 0; i < vueloEsperado.size(); i++) {
             if(i == 0){
                 assertEquals("No es igual el numero",  vueloEsperado.get(i).getNumero() ,vueloResultado.get(i).getNumero());
             }else if(i == 1) {
                 assertEquals(vueloEsperado.get(i).getAerolinea().hashCode(), vueloEsperado.get(i).getAerolinea().hashCode());
             }
-        }
+        }*/
+
+        assertEquals(vueloEsperado.get(0), vueloResultado.get(0));
     }
 }

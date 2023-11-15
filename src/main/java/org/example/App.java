@@ -17,9 +17,11 @@ public class App {
         ArrayList<Aerolinea> directorio =  inicializar.inicializarDatos();
         CategoriaVuelo comercial = CategoriaVuelo.Internacional;
         Estado pronto = Estado.programado;
+        DirectorioTorres directorioTorres = new DirectorioTorres();
+        ArrayList<Torre> torre = directorioTorres.inicializarDirectorioTorre();
         Vuelo vuelo1 = new Vuelo(1,directorio.get(0),comercial,
                 "Armenia","201",LocalDate.now(),
-                LocalTime.MIDNIGHT,LocalTime.now(),"1",20,pronto);
+                LocalTime.MIDNIGHT,LocalTime.now(),torre.get(0),20,pronto);
         Torre torre1 = new Torre("norte","cualquiercosa","32123133");
         torre1.guardarVuelo(vuelo1);
         for (int i = 0; i < directorio.size(); i++) {
