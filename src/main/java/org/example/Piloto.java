@@ -5,6 +5,7 @@ import org.example.Vuelo;
 import java.util.ArrayList;
 
 public class Piloto {
+
     private ArrayList<Vuelo>asignadosVuelos = new ArrayList<>();
     private String nombre;
     private Licencia licencia;
@@ -33,5 +34,4 @@ public class Piloto {
             }
         }
     }
-
 }
