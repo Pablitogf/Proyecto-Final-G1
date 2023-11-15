@@ -7,11 +7,14 @@ public class Torre {
     private int id;
     private String ubicacion;
     private String correo;
-    private int telefono;
+    private String telefono;
     private ArrayList<Vuelo> vuelos = new ArrayList<>();
 
-    public Torre(int id, String ubicacion, String correo, int telefono) {
-        this.id = id;
+
+
+    public static int contador = 0;
+    public Torre(String ubicacion, String correo, String telefono) {
+        this.id = contador++;
         this.ubicacion = ubicacion;
         this.correo = correo;
         this.telefono = telefono;
@@ -21,10 +24,13 @@ public class Torre {
     return id;
     }
 
+<<<<<<< HEAD
     public void setId(int id) {
     this.id = id;
     }
 
+=======
+>>>>>>> 8545054e8ecaca90c961e0320e5e9f1e8c912f7e
     public String getUbicacion() {
     return ubicacion;
     }
@@ -41,12 +47,16 @@ public class Torre {
     this.correo = correo;
     }
 
-    public int getTelefono() {
+    public String getTelefono() {
     return telefono;
     }
 
-    public void setTelefono(int telefono) {
+    public void setTelefono(String telefono) {
     this.telefono = telefono;
+    }
+
+    public ArrayList<Vuelo> getVuelos() {
+        return vuelos;
     }
 
     public void guardarVuelo(Vuelo vueloSupervicion){
