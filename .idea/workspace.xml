@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed10723-644d-4175-9431-4d7b844fae2a" name="Changes" comment="Y agrego este metodo DirectorioTorre">
+    <list default="true" id="bed10723-644d-4175-9431-4d7b844fae2a" name="Changes" comment="Y agrego este metodo TorreTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vuelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vuelo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TorreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TorreTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700060574060</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Y agrego este metodo TorreTest">
+      <option name="closed" value="true" />
+      <created>1700062856343</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700062856343</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -143,6 +151,7 @@
     <MESSAGE value="Y agrego estos tres metodos" />
     <MESSAGE value="Y agrego este metodo DirectorioAerolineas" />
     <MESSAGE value="Y agrego este metodo DirectorioTorre" />
-    <option name="LAST_COMMIT_MESSAGE" value="Y agrego este metodo DirectorioTorre" />
+    <MESSAGE value="Y agrego este metodo TorreTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Y agrego este metodo TorreTest" />
   </component>
 </project>
