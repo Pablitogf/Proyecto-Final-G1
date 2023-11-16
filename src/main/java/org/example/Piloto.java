@@ -14,16 +14,26 @@ public class Piloto {
         this.nombre=nombre;
         this.licencia=licencia;
     }
+
     public Licencia getLicencia() {
         return licencia;
     }
+
     public String getNombre() {
-    return nombre;
-}
+        return nombre;
+    }
 
     public void setNombre(String nombre) {
-    this.nombre = nombre;
-}
+        this.nombre = nombre;
+    }
+
+    public ArrayList<Vuelo> getAsignadosVuelos() {
+        return asignadosVuelos;
+    }
+    public void setAsignadosVuelos(ArrayList<Vuelo> asignadosVuelos) {
+        this.asignadosVuelos = asignadosVuelos;
+    }
+
     //Asignar vuelo
     public void asignarVuelo(ArrayList<Vuelo> vuelos ){
         for (Vuelo categoriaVuelo:vuelos) {
