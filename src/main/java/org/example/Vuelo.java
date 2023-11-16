@@ -17,9 +17,11 @@ public class Vuelo {
     private int numPasajeros;
     private Estado estado;
 
+    private Ruta ruta;
+
 //Constructor
     public Vuelo(int numero,Aerolinea aerolinea ,CategoriaVuelo categoria, String terminal, String puerta, LocalDate fecha, LocalTime horaDespegue,
-                 LocalTime horaAterrizaje, Torre torreControl, int numPasajeros, Estado estado) {
+                 LocalTime horaAterrizaje, Torre torreControl, int numPasajeros, Estado estado, Ruta ruta) {
         this.numero = numero;
         this.categoria = categoria;
         this.terminal = terminal;
@@ -31,6 +33,7 @@ public class Vuelo {
         this.numPasajeros = numPasajeros;
         this.estado = estado;
         this.aerolinea = aerolinea;
+        this.ruta = ruta;
     }
 
     public int getNumero() {
@@ -119,6 +122,19 @@ public class Vuelo {
     public void setAerolinea(Aerolinea aerolinea) {
         this.aerolinea = aerolinea;
     }
+
+    public Estado getEstado() {
+        return estado;
+    }
+
+    public Ruta getRuta() {
+        return ruta;
+    }
+
+    public void setRuta(Ruta ruta) {
+        this.ruta = ruta;
+    }
+
     @Override
     public String toString() {
         return "Vuelo{" +

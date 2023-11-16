@@ -1,45 +1,39 @@
 package org.example;
 
 public class Ruta {
-    
+
 
     private String origen;
     private String destino;
-    private int distancia;
+    private TipoRuta tipoRuta;
 
-public Ruta(){
-
-}
-
-public Ruta(String origen, String destino, int distancia) {
+    public Ruta(String origen, String destino, TipoRuta tipoRuta) {
         this.origen = origen;
         this.destino = destino;
-        this.distancia = distancia;
+        this.tipoRuta = tipoRuta;
     }
 
-public String getOrigen() {
-    return origen;
-}
+    public String getOrigen() {
+        return origen;
+    }
 
-public void setOrigen(String origen) {
-    this.origen = origen;
-}
+    public void setOrigen(String origen) {
+        this.origen = origen;
+    }
 
-public String getDestino() {
-    return destino;
-}
+    public String getDestino() {
+        return destino;
+    }
 
-public void setDestino(String destino) {
-    this.destino = destino;
-}
+    public void setDestino(String destino) {
+        this.destino = destino;
+    }
 
-public int getDistancia() {
-    return distancia;
-}
+    public TipoRuta getTipoRuta() {
+        return tipoRuta;
+    }
 
-public void setDistancia(int distancia) {
-    this.distancia = distancia;
-}
-
-
+    public void setTipoRuta(TipoRuta tipoRuta) {
+        this.tipoRuta = tipoRuta;
+    }
 }

@@ -19,9 +19,11 @@ public class App {
         ArrayList<Torre> torre = directorioTorres.inicializarDirectorioTorre();
         CategoriaVuelo comercial = CategoriaVuelo.Internacional;
         Estado pronto = Estado.programado;
+        TipoRuta tipoRuta1 = TipoRuta.nacional;
+        Ruta ruta1 = new Ruta("Bogota","Armenia",tipoRuta1);
         Vuelo vuelo1 = new Vuelo(1,directorio.get(0),comercial,
                 "Armenia","201",LocalDate.now(),
-                LocalTime.MIDNIGHT,LocalTime.now(),torre.get(0),20,pronto);
+                LocalTime.MIDNIGHT,LocalTime.now(),torre.get(0),20,pronto,ruta1);
         Torre torre1 = new Torre("norte","cualquiercosa","32123133");
         torre1.guardarVuelo(vuelo1);
     }
