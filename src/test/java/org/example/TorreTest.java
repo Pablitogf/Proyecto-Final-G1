@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class TorreTest extends TestCase {
-
+    @Test
     public void testGuardarVuelo() {
         Aerolinea aerolinea = new Aerolinea("Perro",20,20,60);
         Torre torre = new Torre("Ubicacion1", "Correo1", "12345678");
