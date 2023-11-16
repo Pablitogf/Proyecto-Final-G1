@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed10723-644d-4175-9431-4d7b844fae2a" name="Changes" comment="Y agrego este metodo TorreTest">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+    <list default="true" id="bed10723-644d-4175-9431-4d7b844fae2a" name="Changes" comment="modificaciones">
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TorreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TorreTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,16 +51,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/vector/Downloads/ProyectoFinal V2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/vector/Downloads/ProyectoFinal V2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
@@ -143,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700062856343</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="modificaciones">
+      <option name="closed" value="true" />
+      <created>1700154562678</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700154562678</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,6 +158,7 @@
     <MESSAGE value="Y agrego este metodo DirectorioAerolineas" />
     <MESSAGE value="Y agrego este metodo DirectorioTorre" />
     <MESSAGE value="Y agrego este metodo TorreTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Y agrego este metodo TorreTest" />
+    <MESSAGE value="modificaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificaciones" />
   </component>
 </project>
