@@ -56,16 +56,14 @@ public class Torre {
         return vuelos;
     }
 
+    public void setVuelos(ArrayList<Vuelo> vuelos) {
+        this.vuelos = vuelos;
+    }
+
     public void guardarVuelo(Vuelo vueloSupervicion){
         this.vuelos.add(vueloSupervicion);
         System.out.println("Guardo" + vueloSupervicion.toString());
     }
 
-    public ArrayList<Vuelo> getVuelos() {
-        return vuelos;
-    }
-
-    public void setVuelos(ArrayList<Vuelo> vuelos) {
-        this.vuelos = vuelos;
-    }
+    
 }
