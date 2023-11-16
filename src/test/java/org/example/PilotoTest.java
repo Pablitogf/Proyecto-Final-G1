@@ -13,7 +13,7 @@ public class PilotoTest extends TestCase {
         Piloto piloto = new Piloto("Carlos", Licencia.CPL);
         Licencia licencia = licencia.CPL;
         CategoriaVuelo internacional = CategoriaVuelo.Internacional;
-        Vuelo categoriaVuelo = new Vuelo(0, aerolinea, comercial, "lol", "201", LocalDate.now(), LocalTime.MIN, LocalTime.now(), torre, 20, estado);
+        Vuelo categoriaVuelo = new Vuelo(0, null, internacional, getName(), getName(), null, null, null, null, 0, null);
 
         Piloto.asignarVuelo(categoriaVuelo);
 
