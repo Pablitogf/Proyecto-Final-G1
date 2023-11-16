@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bed10723-644d-4175-9431-4d7b844fae2a" name="Changes" comment="modificaciones">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TorreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TorreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PilotoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PilotoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,23 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PilotoTest.testAsignarVuelo">
+    <configuration name="PilotoTest.testAsignarVuelo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Proyecto-Aviones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PilotoTest" />
+      <option name="METHOD_NAME" value="testAsignarVuelo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TorreTest.testGuardarVuelo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Proyecto-Aviones" />
       <extension name="coverage">
@@ -88,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PilotoTest.testAsignarVuelo" />
         <item itemvalue="JUnit.TorreTest.testGuardarVuelo" />
       </list>
     </recent_temporary>
@@ -149,8 +168,27 @@
       <option name="project" value="LOCAL" />
       <updated>1700154562678</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="modificaciones">
+      <option name="closed" value="true" />
+      <created>1700155065025</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700155065025</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cree la gran mayoria de metodos falta actulizar el diagrama.drawio" />

@@ -19,8 +19,6 @@ public class App {
         ArrayList<Torre> torre = directorioTorres.inicializarDirectorioTorre();
         CategoriaVuelo comercial = CategoriaVuelo.Internacional;
         Estado pronto = Estado.programado;
-        DirectorioTorres directorioTorres = new DirectorioTorres();
-        ArrayList<Torre> torre = directorioTorres.inicializarDirectorioTorre();
         Vuelo vuelo1 = new Vuelo(1,directorio.get(0),comercial,
                 "Armenia","201",LocalDate.now(),
                 LocalTime.MIDNIGHT,LocalTime.now(),torre.get(0),20,pronto);
