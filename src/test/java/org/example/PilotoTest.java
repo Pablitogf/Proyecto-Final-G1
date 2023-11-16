@@ -1,16 +1,19 @@
 package org.example;
 
+import junit.framework.TestCase;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Arrays;
-import junit.framework.TestCase;
 
 public class PilotoTest extends TestCase {
 
     public void testAsignarVuelo() {
-        // Crear objetos de la clase Piloto y Vuelo
         Piloto piloto = new Piloto("Carlos", Licencia.CPL);
         Licencia licencia = licencia.CPL;
-        Vuelo categoriaVuelo = new Vuelo(0, null, null, null, null, null, null, null, null, 0, null)
+        CategoriaVuelo internacional = CategoriaVuelo.Internacional;
+        Vuelo categoriaVuelo = new Vuelo(0, aerolinea, comercial, "lol", "201", LocalDate.now(), LocalTime.MIN, LocalTime.now(), torre, 20, estado);
 
         Piloto.asignarVuelo(categoriaVuelo);
 
