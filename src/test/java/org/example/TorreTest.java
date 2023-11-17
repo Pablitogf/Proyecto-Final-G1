@@ -14,7 +14,7 @@ public class TorreTest extends TestCase {
         Torre torre = new Torre("Ubicacion1", "Correo1", "12345678");
         CategoriaVuelo comercial = CategoriaVuelo.Internacional;
         Estado estado = Estado.programado;
-        Vuelo vueloSupervicion = new Vuelo(0, aerolinea, comercial, "lol", "201", LocalDate.now(), LocalTime.MIN, LocalTime.now(), torre, 20, estado);
+        Vuelo vueloSupervicion = new Vuelo(0, aerolinea, comercial, "lol", "201", LocalDate.now(), LocalTime.MIN, LocalTime.now(), torre, 20, estado,null);
         System.out.println("Vuelo antes de guardar: " + vueloSupervicion.toString());
 
         torre.guardarVuelo(vueloSupervicion);
